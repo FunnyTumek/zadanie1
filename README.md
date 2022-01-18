@@ -1,7 +1,7 @@
-## Projekt numer 1
+# Projekt numer 1
 Aplikcja została wykonana przy użyciu Reacta. Użyta baza danych to PostgreSQL
 W aplikacji umożliwiono obliczenie elemntów ciągu Fibonnaciego. Każde obliczenie zapisywane jest w historii.</p>
-# Projekt został podzielony na trzy części:
+## Projekt został podzielony na trzy części:
 
 **Client:**
 - Main.js - jest komponentem strony głównej
