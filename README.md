@@ -23,7 +23,7 @@ Aby uruchomić aplikację w katalogu głównym repozytorium należy wpisać pole
 
 Aplikacja jest dostępna na porcie 801.
 
-##Schemat komunkacji
+## Schemat komunkacji
 ![photo](https://github.com/FunnyTumek/zadanie1/blob/main/client/src/architectura.png)
 
 ## Zdjęcie potwierdzające działania usług
