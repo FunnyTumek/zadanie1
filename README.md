@@ -23,3 +23,5 @@ Aby uruchomić aplikację w katalogu głównym repozytorium należy wpisać pole
 
 Aplikacja jest dostępna na porcie 80.
 
+##Zdjęcie potwierdzające działania usług
+!(https://github.com/FunnyTumek/zadanie1/blob/main/photo.JPG)
