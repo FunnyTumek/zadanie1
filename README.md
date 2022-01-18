@@ -1,29 +1,24 @@
-# FiboMulti
+##Projekt numer 1
+Aplikcja została wykonana przy użyciu Reacta. Użyta baza danych to PostgreSQL
+W aplikacji umożliwiono obliczenie elemntów ciągu Fibonnaciego. Każde obliczenie zapisywane jest w historii.</p>
+##Projekt został podzielony na trzy części:
 
-## Projekt został wykonany na podstawie zadania 9.
-
-## Dodano elementy:
-- **Main.js** - komponent strony głównej
-- **Documentation.js** - komponent dokumentacji
-- **History.js** - komponent wyświetlający historię ostatnich wpisanych indeksów
-
-## Zmodyfikowano następujące elementy:
-### client:
-- **Fib.js** - dodano metody umożliwiające komunikację z modułem historii
-- **App.js** - zrealizowano w formie routera React
-
-### server:
-- **index.js** - zmieniono limit dla indeksu k do 20
-
-### worker:
-- **index.js** - zmieniono funkcję obliczającą k-ty wyraz ciągu
-
+## Client
+- Main.js - jest komponentem strony głównej<br/>
+- Documentation.js - komponent odpowiedzialny za dokumentację projektu<br/>
+- History.js - komponent wyświetlający historię ostatnich obliczeń ciągu fib</p><br/>
+- Fib.js - metody umożliwiające komunikację<br/>
+- App.js - odpowiedzialne za routing React'a</p><br/>
+- 
+##Serwer
+- Index.js - dodawanie do bazy rekordów dla k maksymalnego 20
+- 
+##Worker:
+-Index.js - oblicza ciąg Fibonacciego
 ## Uruchomienie usługi
-W katalogu głównym repozytorium można uruchomić usługę poleceniem:
+Aby uruchomić aplikację w katalogu głównym repozytorium należy wpisać polecenie:
 
 `COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker compose -f docker-compose.dev.yml up --build`
 
 Aplikacja jest dostępna na porcie 80.
 
-## Zrzut ekranu
-![image](scr.png "Zrzut ekranu")
