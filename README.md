@@ -4,11 +4,11 @@ W aplikacji umożliwiono obliczenie elemntów ciągu Fibonnaciego. Każde oblicz
 # Projekt został podzielony na trzy części:
 
 **Client:**
-- Main.js - jest komponentem strony głównej<br/>
-- Documentation.js - komponent odpowiedzialny za dokumentację projektu<br/>
-- History.js - komponent wyświetlający historię ostatnich obliczeń ciągu fib</p><br/>
-- Fib.js - metody umożliwiające komunikację<br/>
-- App.js - odpowiedzialne za routing React'a</p><br/>
+- Main.js - jest komponentem strony głównej
+- Documentation.js - komponent odpowiedzialny za dokumentację projektu
+- History.js - komponent wyświetlający historię ostatnich obliczeń ciągu fib
+- Fib.js - metody umożliwiające komunikację<
+- App.js - odpowiedzialne za routing React'a
  
 **Serwer:**
 - Index.js - dodawanie do bazy rekordów dla k maksymalnego 20
