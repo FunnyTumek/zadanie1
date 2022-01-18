@@ -25,3 +25,4 @@ Aplikacja jest dostępna na porcie 80.
 
 ## Zdjęcie potwierdzające działania usług
 ![photo](https://github.com/FunnyTumek/zadanie1/blob/main/photo.JPG )
+![photo](https://github.com/FunnyTumek/zadanie1/blob/main/photo1.JPG )
